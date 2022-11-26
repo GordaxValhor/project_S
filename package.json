@@ -4,7 +4,8 @@
   "description": "Name: **Project S**\\\r Creators: \\\r Ianos Calin [https://www.linkedin.com/in/ianos-calin-a5359b218/] \\\r Ovidiu Grigor [https://www.linkedin.com/in/ovidiu-grigor-25b485243/] \\\r \\\r Code Implementation: Ianos Calin;\\\r Design: Ovidiu Grigor;\\\r \\\r Topic: Course Recomandation Site\\\r \\\r Website Link: https://gordaxvalhor.github.io/project_S/",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/GordaxValhor/project_S/issues"
   },
-  "homepage": "https://github.com/GordaxValhor/project_S#readme"
+  "homepage": "https://github.com/GordaxValhor/project_S#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0"
+  }
 }
