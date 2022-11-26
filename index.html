@@ -4,17 +4,78 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Project S</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Project S - Home page</title>
   </head>
   <body>
-    <h1>Project S</h1>
-    <button>Test js click</button>
-    <a href="./course.html">go to course</a>
-    <script>
-      console.log("merge");
-      document.querySelector("button").addEventListener("click", () => {
-        alert("s-a dat click!");
-      });
-    </script>
+    <div class="header__wrapper">
+      <div class="header__logo">
+        <img src="./assets/Logo WG.svg" alt="Logo" />
+      </div>
+      <div class="header__links">
+        <a href="./course.html">Course</a>
+        <a href="./blog.html">Blog</a>
+      </div>
+      <div class="header_contact">
+        <a class="button button__tertiary" href="">Contact Us</a>
+      </div>
+    </div>
+    <div class="hero__wrapper space-big">
+      <div class="hero__text1">
+        <h1><span class="color-primary-text">Find the right Course</span> For You</h1>
+      </div>
+      <div class="hero__text2 space-small">
+        <h1>WG Course stands for ‘Want Good Course’</h1>
+      </div>
+      <a class="button button__primary" href="">Take up a Course <img src="./assets/arrow white up.svg" /></a>
+      <div class="figure figure__square-1"></div>
+      <div class="figure figure__square-2"></div>
+      <div class="figure figure__circle-1"></div>
+    </div>
+    <div class="about">
+      <div class="about__info">
+        <h1 class="space-small">What is WG Course about?</h1>
+        <p class="space-tiny">Our mission is to give you valuable info about different courses for self development, and to direct you to the course that fits you best.</p>
+        <p class="space-tiny">Lorem ipsum dsaongasoidgiasdf fdisfsdji fdsafj idsajfdasio dsjifdas iofda sjiofjdifdsja oifjasdfd</p>
+        <p class="space-tiny">Find more about <a class="link">WG Course and it’s team.</a></p>
+      </div>
+      <div class="about__courses">
+        <h1 class="space-small">Courses</h1>
+        <div class="course-item space-small">
+          <h2 class="colored-number">01</h2>
+          <div class="course-item-text">
+            <h2>th</h2>
+            <h3>Theta Healing</h3>
+          </div>
+          <img src="./assets/round box arrow right.svg" alt="" width="80" />
+        </div>
+        <div class="course-item">
+          <h2 class="colored-number">02</h2>
+          <div class="course-item-text">
+            <h2>th</h2>
+            <h3>Theta Healing</h3>
+          </div>
+          <img src="./assets/round box arrow right.svg" alt="" width="80" />
+        </div>
+        <div class="course-item">
+          <h2 class="colored-number">03</h2>
+          <div class="course-item-text">
+            <h2>th</h2>
+            <h3>Theta Healing</h3>
+          </div>
+          <img src="./assets/round box arrow right.svg" alt="" width="80" />
+        </div>
+        <div class="course-item">
+          <h2 class="colored-number">04</h2>
+          <div class="course-item-text">
+            <h2>th</h2>
+            <h3>Theta Healing</h3>
+          </div>
+          <img src="./assets/round box arrow right.svg" alt="" width="80" />
+        </div>
+      </div>
+    </div>
+
+    <script src="./scripts/main.js"></script>
   </body>
 </html>
